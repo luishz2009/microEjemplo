@@ -34,6 +34,7 @@ public class Producto implements Serializable {
 	
 	private String nombre;
 	private Double precio;
+	private int cantidad;
 	
 	@Column(name = "create_at")
 	@Temporal(TemporalType.DATE)
